@@ -1,6 +1,6 @@
 #include <Eigen/Dense>
 #include <cmath>
-#include "FFT.hpp"
+#include "../include/FFT.hpp"
 
 
 int reverse(int b, int n)

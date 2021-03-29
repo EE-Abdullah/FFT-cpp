@@ -1,7 +1,7 @@
 #include <Eigen/Dense>
 #include <vector>
-#include "FFT.hpp"
-#include "matplotlibcpp.h"
+#include "include/FFT.hpp"
+#include "include/matplotlibcpp.h"
 
 namespace plt = matplotlibcpp;
 
