@@ -25,7 +25,8 @@ Eigen::VectorXcd sort(Eigen::VectorXd& x_n);
 Eigen::VectorXcd computation
 (
     Eigen::VectorXcd&& x_seg_A,
-    Eigen::VectorXcd&& x_seg_B, int N
+    Eigen::VectorXcd&& x_seg_B,
+    int N
 );
     /*
     .................................
