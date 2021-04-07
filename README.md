@@ -20,6 +20,16 @@ The following are the required dependencies:
 
 ## Running the tests
 
+### Using CMake
+clone this repository then switch to it's root directory and run the following commands:
+
+```
+mkdir build && cd build
+cmake ..
+cmake --build .
+./program
+```
+### Using GCC
 compile the main.cpp file with FFT.cpp using:
 ```
 g++ main.cpp src/FFT.cpp -I<path to python3.6m> -lpython3.6m
