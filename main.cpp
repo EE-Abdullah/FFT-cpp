@@ -9,7 +9,7 @@ namespace plt = matplotlibcpp;
 int main()
 {
     double fm = 10e1;   // Continuous Time input signal's frequency.
-    double fs = 10e3;  // Sampling Frequency.
+    double fs = 10240;  // Sampling Frequency.
     double duration = 6*(1/fm); // sampling the input signal for 3 periods.
     int N = (int)(duration * fs);    // input sequence's length as a function of duration,
                                      // signal's period and sampling frequency.
@@ -49,11 +49,27 @@ int main()
     std::vector<double> x_n_std(x_n.data(), x_n.data()+x_n.size()); // convert Eigen vector to std vector
 
     // plotting results.
+
+    //time domain
     plt::figure_size(1200, 800);
     plt::subplot(2,1,1);
     plt::plot(t_std, x_n_std);
+    plt::grid(true);
+    plt::title("x(t)");
+    plt::xlabel("time(s)");
+    plt::ylabel("Amplitude(V)");
+
+    
+    //frequency domain
     plt::subplot(2,1,2);
     plt::plot(f_std, X_f_std);
+    plt::grid(true);
+    plt::title("|X(f)|");
+    plt::xlabel("frequency(Hz)");
+    plt::ylabel("Magnitude");
+
+
+    plt::tight_layout();
     plt::show();
     return 0;
 }
