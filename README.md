@@ -14,8 +14,8 @@ The following are the required dependencies:
 ```
 1-std library
 2-Eigen library(Added to repository)
-3-Matplotlibcpp(optional)
-4-Python3(optional)(required for matplotlibcpp)
+3-Matplotlibcpp(For running the test example)
+4-Python3(For running the test example)
 ```
 
 ## Sample Output
