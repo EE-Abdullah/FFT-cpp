@@ -18,6 +18,14 @@ The following are the required dependencies:
 4-Python3(optional)(required for matplotlibcpp)
 ```
 
+## Sample Output
+
+input signal is sin function of frequency of 100 Hz, sampling frequency is 10240 Hz.
+
+the input signal has been sampled for 6 periods.
+
+Both (time/frequency)-domain representations of the input signal is depicted in the figure below
+![alt text](https://github.com/EE-Abdullah/FFT-cpp/blob/master/sample.png)
 ## Running the tests
 
 ### Using CMake

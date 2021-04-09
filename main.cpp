@@ -73,7 +73,4 @@ int main()
     plt::show();
     return 0;
 }
-<<<<<<< HEAD:src/main.cpp
     
-=======
->>>>>>> 39e5d6c4b4ea16acfa52fad129d84426ab7d8d5f:main.cpp
