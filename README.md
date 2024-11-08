@@ -51,11 +51,3 @@ g++ main.cpp src/FFT.cpp -I/usr/include/python3.6m -lpython3.6m
 
 * [Eigen](http://eigen.tuxfamily.org) - For Linear Algebra.
 * [matplotlibcpp](https://matplotlib-cpp.readthedocs.io/en/latest) - plotting and visualization.
-
-
-## Acknowledgments
-
-* [Professor Alan V. Oppenheim](https://en.wikipedia.org/wiki/Alan_V._Oppenheim) - Inspired By.
-* Eigen docs
-* Matplotlib
-
